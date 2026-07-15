@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR3a0033/v1
 canonical_location: https://kanripo.org/bkk/KR3a0033/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+  hash: sha256:80d2d927b8deb12efb4a2db45a88623d21d8eb0caa5df4e1fce34edd8ec300b3
 metadata:
   title: 程氏家塾讀書分年日程
   date: '2015-09-12 00:16:16.977372'
@@ -16,33 +16,61 @@ entity_encoding:
   identifier: bkk:encoding/kanripo-pua-v1
   hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
 editions:
-- {short: SBCK, label: 【四部叢刊】}
+- short: SBCK
+  label: 【四部叢刊】
 assets:
   parts:
-  - {seq: 0, filename: KR3a0033_000.yaml, hash: 'sha256:604b54abd34bfa84f77a40e6217af8da8d298478fa357c94cb2e53684a22d058'}
-  - {seq: 1, filename: KR3a0033_001.yaml, hash: 'sha256:c0688826eb5488d3f791630ef4dc1dabb4811604ac99f1f6ed0143190cfab332'}
-  - {seq: 2, filename: KR3a0033_002.yaml, hash: 'sha256:67552afa0758196a52d316291b7d251b6b7434dd507b431e63598d8aa219f2ac'}
-  - {seq: 3, filename: KR3a0033_003.yaml, hash: 'sha256:f274cd28ac9d81e8377342714a070ccb033d11e5b8529b532f4dc18b87d0d7e7'}
+  - {seq: 0, filename: KR3a0033_000.yaml, hash: 'sha256:bcb0d337528c27452aa1d7e09215253979a2ce92c76a8c3b333ec722e82fb7d5'}
+  - {seq: 1, filename: KR3a0033_001.yaml, hash: 'sha256:ab27997dbdeaffb1ece672683ec173bc1df46473e7a912c5fa1d2a32d78eed1e'}
+  - {seq: 2, filename: KR3a0033_002.yaml, hash: 'sha256:aa61b37a476788cc6350b57168d57e855211e70e40c45d73eff6afea5021225f'}
+  - {seq: 3, filename: KR3a0033_003.yaml, hash: 'sha256:23ad212fbb0dbc06d976279673a8bdbd268744bc32ee1fdbcc83a0b171cff87e'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR3a0033_000.markers.yaml, hash: 'sha256:bad76ca1265409acac1d744a540b2ea95db1082d2c90a8bf9090329bfa4d3a1c'}
-  - {seq: 1, role: markers, filename: assets/KR3a0033_001.markers.yaml, hash: 'sha256:1ff16685178f4f4d5bd0a26a23939a44e54cb66d5eee72f74eb5a9435e69c2b1'}
-  - {seq: 2, role: markers, filename: assets/KR3a0033_002.markers.yaml, hash: 'sha256:4011d2fd323038c3572bcbc28486729eed61cdb37f86fd3a14d878caa42d5b93'}
-  - {seq: 3, role: markers, filename: assets/KR3a0033_003.markers.yaml, hash: 'sha256:c5869c8e90b10d642441a638376097de2e24b5dc0351f1b338f229b6593393ee'}
+  - {seq: 0, role: markers, filename: assets/KR3a0033_000.markers.yaml, hash: 'sha256:5bd0cc4539cca819b1017064be16f70413a7052137b439f5761a167038ef171e'}
+  - {seq: 1, role: markers, filename: assets/KR3a0033_001.markers.yaml, hash: 'sha256:2cd91cc87c0cc8ee1851c33ff48055a15042a78bb698a2bd9bd34826fd09cb7b'}
+  - {seq: 2, role: markers, filename: assets/KR3a0033_002.markers.yaml, hash: 'sha256:1c935d1532ca549feba56bf6f3bbeb29309c238a972aec3bb49be7b2cb460f07'}
+  - {seq: 3, role: markers, filename: assets/KR3a0033_003.markers.yaml, hash: 'sha256:7987b109571cab5e11c01bec8bdd6f5b55af0101954088d34cf9db1c476cfd81'}
 table_of_contents:
-- ref: {seq: 0, marker_id: KR3a0033_SBCK_000-1a, span: [body, 0, 1016]}
+- ref:
+    seq: 0
+    marker_id: KR3a0033_SBCK_000-1a
+    span:
+    - body
+    - 0
+    - 1016
   label: juan 000
   type: section
   level: 1
-- ref: {seq: 1, marker_id: KR3a0033_SBCK_001-1a, span: [body, 0, 14609]}
+- ref:
+    seq: 1
+    marker_id: KR3a0033_SBCK_001-1a
+    span:
+    - body
+    - 0
+    - 14609
   label: juan 001
   type: section
   level: 1
-- ref: {seq: 2, marker_id: KR3a0033_SBCK_002-1a, span: [body, 0, 10338]}
+- ref:
+    seq: 2
+    marker_id: KR3a0033_SBCK_002-1a
+    span:
+    - body
+    - 0
+    - 10338
   label: juan 002
   type: section
   level: 1
-- ref: {seq: 3, marker_id: KR3a0033_SBCK_003-1a, span: [body, 0, 19310]}
+- ref:
+    seq: 3
+    marker_id: KR3a0033_SBCK_003-1a
+    span:
+    - body
+    - 0
+    - 19310
   label: juan 003
   type: section
   level: 1
-hash: sha256:ff2a9ccf0371fe94851dc740c14b92d9f531b25d06da2a5669e400014aecd8ef
+hash: sha256:2a0b1b38e5917eb7d9edd0751de2a378b67347084d433b02a60f4835e75666cc
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
